@@ -3,7 +3,7 @@ use digest::{Digest, FixedOutput, FixedOutputReset, Output, OutputSizeUser, Rese
 use digest::core_api::CoreWrapper;
 use sha3::{Sha3_256, Sha3_256Core};
 
-struct WeakSha3256 {
+pub struct WeakSha3256 {
     inner_sha3: Sha3_256
 }
 
